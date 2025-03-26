@@ -60,7 +60,7 @@ body {
 img {
     width: 288px;
     height: 288px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .footer {
@@ -68,4 +68,12 @@ img {
     bottom: 60px;
     width: 300px;
     text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 16px;
+    background-color: var(--white);
 }
