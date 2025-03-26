@@ -17,7 +17,6 @@
 }
 
 .text__preset--1 {
-    font-family: "Outfit";
     font-weight: bold;
     font-size: 22px;
     line-height: 120%;
@@ -27,7 +26,6 @@
 }
 
 .text__preset--2 {
-    font-family: "Outfit";
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.2px;
