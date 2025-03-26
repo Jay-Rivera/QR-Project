@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #D5e1ef;
+    --white: #ffffff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--slate-300);
+}
+
+.text__preset--1 {
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0;
+    background-color: var(--white);
+    color: var(--slate-900);
+}
+
+.text__preset--2 {
+    font-family: "Outfit";
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    background-color: var(--white);
+    color: var(--slate-500);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 320px;
+    text-align: center;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--white);
+    border-radius: 20px;
+    gap: 24px;
+    box-shadow: 1px 20px 20px var(--slate-500);
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 60px;
+    width: 300px;
+    text-align: center;
+}
